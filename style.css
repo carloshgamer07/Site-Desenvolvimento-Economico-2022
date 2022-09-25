@@ -247,6 +247,7 @@ nav
 /**/
 
 /*Imagens dos Candidatos*/
+@media (max-width: 50vw){
 .CiroIMG1
 {
   width: 100%;
@@ -255,6 +256,8 @@ nav
 
 .CiroIMG2{
   width: 100%;
+}
+
 }
 
 .segundaImg
