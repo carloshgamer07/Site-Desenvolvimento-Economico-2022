@@ -13,7 +13,10 @@ body
 main
 {
   margin-top: 15vh;
-  height: 1000%; 
+  height: 1000%;
+  max-width: 1920px; 
+  min-width: 375px;
+
 }
 
 footer
@@ -255,8 +258,7 @@ nav
 }
 
 .CiroIMG2{
-  width: 55vw;
-  height: 74vh;
+  width: 100%;
 }
 
 
