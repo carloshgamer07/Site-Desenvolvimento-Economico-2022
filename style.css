@@ -253,6 +253,11 @@ nav
   height: 100%;
 }
 
+.CiroIMG2{
+  width: 100%;
+  height: auto;
+}
+
 .segundaImg
 {
   border-radius: 15px;
