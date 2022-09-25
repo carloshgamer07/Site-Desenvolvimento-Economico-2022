@@ -1,3 +1,4 @@
+/*Estruturas Básicas da Página*/
 body
 {
   display: flex;
@@ -8,38 +9,76 @@ body
   width: auto;
 }
 
+/*Main e Footer das Páginas*/
+main
+{
+  margin-top: 15vh;
+  height: 1000%; 
+}
+
+footer
+{
+  background-color: #1f2540;
+}
+/**/
+
+/*Títulos h2 (Nome dos Candidatos)*/
 h2
 {
   color: #fad02c;
 }
+/**/
 
+/*Menu de Navegação*/
+nav
+{
+  display: flex;
+  justify-content: center;
+  background-color: #1f2540;
+  border-bottom-left-radius: 14vw;
+  border-bottom-right-radius: 14vw;
+}
+/**/
+
+/*Menu Lateral*/
+#sideBar
+{
+  overflow-y: hidden;
+}
+/**/
+
+/*Div Pai do Header/Título da Página*/
 #pgCandidatos
 {
   border-bottom: solid black 5px;
 }
 
-#titulo
+#menu
 {
-  display: flex;
-  flex-direction: row;
+  display:flex;
   justify-content: center;
-  font-size: 8vh;
-  color: whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 2vh;
+  padding: 4pt;
+  border-radius: 2vw;
+  margin-bottom: -7em;
 }
+/**/
 
-#sideBar
+/*Div para o Header Vísivel (Com o Título)*/
+#menuVisivel 
 {
-  overflow-y: hidden;
+  text-align: center;
 }
+/**/
 
+/*Título da Barra Lateral*/
 .sideBarTitulo
 {
   margin-bottom: 1.5vh;
   margin-top: 1.5vh;
 }
+/**/
 
+/*Classe da Logo e Título da Página (Ambas Imagens)*/
 .logoDE
 {
   width: 200px;
@@ -51,36 +90,18 @@ h2
   width: 650px;
   height: 200px;
 }
+/**/
 
-nav
-{
-  display: flex;
-  justify-content: center;
-  background-color: #1f2540;
-  border-bottom-left-radius: 14vw;
-  border-bottom-right-radius: 14vw;
-}
-
-#menu
-{
-  display:flex;
-  justify-content: center;
-  padding: 4pt;
-  border-radius: 2vw;
-  margin-bottom: -7em;
-}
-
-#menuVisivel 
-{
-  text-align: center;
-}
-
+/*Botões*/
+/*Botão de Menu*/
 .btnMenu
 {
   margin-left: 10%;
   margin-bottom: 2vh;
 }
+/**/
 
+/*Botão do Menu Lateral que leva à página Principal*/
 #btnHome
 {
   background-color: #fad02c;
@@ -94,7 +115,9 @@ nav
   width: 15vw;
   margin-bottom: 2vh;
 }
+/**/
 
+/*Botão do Menu Lateral que leva à página de Desenvolvedores*/
 #btnSobre
 {
   background-color: #14668f;
@@ -107,7 +130,9 @@ nav
   width: 15vw;
   padding: 5pt;
 }
+/**/
 
+/*Botões do Menu Lateral que levam às páginas dos Candidatos*/
 #btnCandidato
 {
   background-color: #752A87;
@@ -120,25 +145,18 @@ nav
   width: 15vw;
   padding: 3pt;
 }
+/**/
 
+/*Classe do Ícone dos Candidatos*/
 .iTipo1
 {
   width: 2.5vw;
   height: auto;
   border-radius: 1vw;
 }
+/**/
 
-footer
-{
-  background-color: #1f2540;
-}
-
-main
-{
-  margin-top: 15vh;
-  height: 1000%; 
-}
-
+/*Elementos (Imagens e Textos) da Página Principal*/
 .textDE
 {
   margin-top: 5%;
@@ -183,7 +201,9 @@ main
 {
   font-weight: bolder;
 }
+/**/
 
+/*Configurações do Slider*/
 .paiCarousel
 {
   display: flex;
@@ -197,6 +217,7 @@ main
   margin-right: 250px;
 }
 
+/*Configurações da Legenda Das Imagens que também, são links*/
 #fundoCap{
   backdrop-filter: brightness(20%);
 }
@@ -212,6 +233,7 @@ main
 #fundoCap a:visited {
   color: white;
 }
+/**/
 
 #carouselExampleControls
 {
@@ -222,12 +244,13 @@ main
   background-color: grey;
   margin-top: 3vh;
 }
+/**/
 
-.primeiraImg
+/*Imagens dos Candidatos*/
+.CiroIMG1
 {
-  margin-left: 210pt;
-  width: 30em;
-  height: 43.9em;
+  width: 50%;
+  height: 100%;
 }
 
 .segundaImg
@@ -236,7 +259,9 @@ main
   width: 68em;
   height: 43.9em;
 }
+/**/
 
+/*Divisão entre o Slider e o Conteúdo*/
 hr
 {
   position: relative;
@@ -246,7 +271,9 @@ hr
   background: black;
   margin-bottom: 50px;
 }
+/**/
 
+/*
 .MenuColapsavel
 {
   margin: 15px;
@@ -259,7 +286,9 @@ hr
   padding-left: 15px;
   padding-right: 30px;
 }
+*/
 
+/*Div pai de todos os textos sobre os candidatos*/
 .txtpai
 {
   padding: 15px;
@@ -270,7 +299,9 @@ hr
   margin-right: 100px;
   border: solid;
 }
+/**/
 
+/*Textos dos Candidatos*/
 .Biografia
 {
   color: white;
@@ -300,3 +331,4 @@ hr
   margin-right: 150px;
   text-align: justify;
 }
+/**/
