@@ -353,7 +353,7 @@ nav
 
 /*Imagens de Bolsonaro*/
 .BolsonaroIMG1{
-  width: 50%;
+  width: 100%;
   height: 43.9em;
   margin-left: 25%;
   align-content: center;
@@ -440,7 +440,7 @@ nav
 
 /*Imagens de Pablo Marçal*/
 .PabloIMG1{
-  width: 50%;
+  width: 100%;
   height: 43.9em;
   margin-left: 25%;
   align-content: center;
@@ -498,7 +498,7 @@ nav
 
 /*Imagens de Simone Tebet*/
 .TBTIMG1{
-  width: 50%;
+  width: 100%;
   height: 43.9em;
   margin-left: 25%;
   align-content: center;
@@ -527,7 +527,7 @@ nav
 
 /*Imagens de Sofia Manzzano*/
 .SofiaIMG1{
-  width: 50%;
+  width: 100%;
   height: 43.9em;
   margin-left: 25%;
   align-content: center;
@@ -556,7 +556,7 @@ nav
 
 /*Imagens de Soraya Thronicke*/
 .SorayaIMG1{
-  width: 50%;
+  width: 100%;
   height: 43.9em;
   margin-left: 25%;
   align-content: center;
@@ -585,7 +585,7 @@ nav
 
 /*Imagens de Vera Lúcia*/
 .VeraIMG1{
-  width: 50%;
+  width: 100%;
   height: 43.9em;
   margin-left: 25%;
   align-content: center;
