@@ -85,14 +85,14 @@ nav
 /*Classe da Logo e Título da Página (Ambas Imagens)*/
 .logoDE
 {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .tituloSite
 {
-  width: 550px;
-  height: 100px;
+  width: 600px;
+  height: 150px;
 }
 /**/
 
@@ -386,7 +386,7 @@ nav
 
 .LeoIMG2{
   width: 100%;
-  height: 43.9em;
+  max-height: 43.9em;
 }
 
 .LeoIMG3{
