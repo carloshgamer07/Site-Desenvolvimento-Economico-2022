@@ -20,87 +20,73 @@
     
   </head>
   <body>
-   <header>
-          
-    <nav class="navbar navbar-dark fixed-top">
-      <div id="menu" id="pgCandidatos" class="container-fluid">
-        <div>
-          <div id="menuVisivel">
-            <p id="titulo">
-              <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
-              <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
-            </p>
-          </div>
-      </div>
-          
-        <div 
-          class="offcanvas offcanvas-start text-bg-dark" 
-          tabindex="-1" 
-          id="offcanvasDarkNavbar" 
-          aria-labelledby="offcanvasDarkNavbarLabel"
-          style="width: 20vw;">
-
-          <div class="offcanvas-header">
-            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a id="btnHome" href="index.html" class="nav-link active" aria-current="page">
-                  <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
-                  Página Inicial
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a id="btnSobre" class="nav-link" href="#">
-                  <img class="iTipo1" src="img/Ícones/iconeSobre.jpeg" alt="Ícone da Página Sobre">
-                  Página de Desenvolvedores
-                </a>
-              </li>
-
-              <hr>
-
-              <h3 class="sideBarTitulo">Eleições 2022</h3>
-
-              <li class="nav-item dropdown">
-                <a 
-                id="btnCandidato"
-                class="nav-link dropdown-toggle" 
-                href="#" role="button" 
-                data-bs-toggle="dropdown" 
-                aria-expanded="false">
-                <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
-                  Cadidatos
-                </a>
-                <ul id="listaCandidato" class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li>
-                  <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li>
-                  <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li>
-                  <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li>
-                  <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li>
-                  <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li>
-                  <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li>
-                  <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li>
-                  <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li>
-                  <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li>
-                  <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li>
-                  <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
-                </ul>
-              </li>
-            </ul>
+    <header>
+      <nav class="navbar navbar-dark fixed-top">
+        <div id="menu" class="container-fluid">
+          <div>
+            <div id="menuVisivel">
+              <p id="titulo">
+                <img src="img/Ícones/logoDESemFundo.png" class="logoDE" alt="Logo do Site">
+                <img src="img/Ícones/TituloSiteSemFundo.png" class="tituloSite" alt="Logo do Site">
+              </p>
+            </div>
+        </div>
+            
+          <div 
+            class="offcanvas offcanvas-start text-bg-dark" 
+            tabindex="-1" 
+            id="offcanvasDarkNavbar" 
+            aria-labelledby="offcanvasDarkNavbarLabel"
+            style="width: 20vw;">
+  
+            <div class="offcanvas-header">
+              <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Opções</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+  
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a id="btnHome" href="index.html" class="nav-link active" aria-current="page">
+                    <img class="iTipo1" src="img/Ícones/iconeHome.jpeg" alt="Ícone da Página Inicial">
+                    Página Inicial
+                  </a>
+                </li>
+  
+                <hr>
+  
+                <h3 class="sideBarTitulo">Eleições 2022</h3>
+                 
+                  <ul id="listaCandidato" class="">
+  
+                    <img class="iTipo1" src="img/Ícones/iconeCandidatos.jpeg" alt="Ícone do Dropdown dos Candidatos">
+                    <h5>Candidatos</h5><br>
+  
+                    <li><a class="dropdown-item" href="PaginaCiroGomes.html">Ciro Gomes ( PDT )</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaConstituinteEymael.html">Constituinte Eymael ( DC )</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaFelipeDavila.html">Felipe D'Avila ( NOVO )</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaJairBolsonaro.html">Jair Bolsonaro (PL)</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaLeoPericles.html">Leo Péricles ( UP )</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaLula.html">Lula (PT)</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaPabloMarcal.html">Pablo Marçal (PROS)</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaRobertoJefferson.html">Roberto Jefferson ( PTB )</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaSimoneTebet.html">Simone Tebet (MDB)</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaSofiaManzano.html">Sofia Manzano (PCB)</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaSorayaThronicke.html">Soraya Thronicke ( União )</a></li><br>
+                    <li><a class="dropdown-item" href="PaginaVeraLucia.html">Vera (PSTU)</a></li>
+                  </ul>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="btnMenu">
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </nav>
-  </header> 
+  
+        <div class="btnMenu">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
   <main>
     
    <div class="paiCarousel"> 
