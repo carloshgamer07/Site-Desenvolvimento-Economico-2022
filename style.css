@@ -1,3 +1,4 @@
+/*Estruturas Básicas da Página*/
 body
 {
   display: flex;
@@ -8,38 +9,80 @@ body
   width: auto;
 }
 
+/*Main e Footer das Páginas*/
+main
+{
+  margin-top: 15vh;
+  height: 1000%;
+  max-width: 1920px; 
+  min-width: 375px;
+
+}
+
+footer
+{
+  background-color: #1f2540;
+}
+/**/
+
+/*Títulos h2 (Nome dos Candidatos)*/
 h2
 {
   color: #fad02c;
 }
+/**/
 
+/*Menu de Navegação*/
+nav
+{
+  display: flex;
+  justify-content: center;
+  background-color: #1f2540;
+  border-bottom-left-radius: 14vw;
+  border-bottom-right-radius: 14vw;
+  width: 100%;
+}
+/**/
+
+/*Menu Lateral*/
+#sideBar
+{
+  overflow-y: hidden;
+}
+/**/
+
+/*Div Pai do Header/Título da Página*/
 #pgCandidatos
 {
   border-bottom: solid black 5px;
 }
 
-#titulo
+#menu
 {
-  display: flex;
-  flex-direction: row;
+  display:flex;
   justify-content: center;
-  font-size: 8vh;
-  color: whitesmoke;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 2vh;
+  padding: 4pt;
+  border-radius: 2vw;
+  margin-bottom: -7em;
 }
+/**/
 
-#sideBar
+/*Div para o Header Vísivel (Com o Título)*/
+#menuVisivel 
 {
-  overflow-y: hidden;
+  text-align: center;
 }
+/**/
 
+/*Título da Barra Lateral*/
 .sideBarTitulo
 {
   margin-bottom: 1.5vh;
   margin-top: 1.5vh;
 }
+/**/
 
+/*Classe da Logo e Título da Página (Ambas Imagens)*/
 .logoDE
 {
   width: 200px;
@@ -51,36 +94,18 @@ h2
   width: 650px;
   height: 200px;
 }
+/**/
 
-nav
-{
-  display: flex;
-  justify-content: center;
-  background-color: #1f2540;
-  border-bottom-left-radius: 14vw;
-  border-bottom-right-radius: 14vw;
-}
-
-#menu
-{
-  display:flex;
-  justify-content: center;
-  padding: 4pt;
-  border-radius: 2vw;
-  margin-bottom: -7em;
-}
-
-#menuVisivel 
-{
-  text-align: center;
-}
-
+/*Botões*/
+/*Botão de Menu*/
 .btnMenu
 {
   margin-left: 10%;
   margin-bottom: 2vh;
 }
+/**/
 
+/*Botão do Menu Lateral que leva à página Principal*/
 #btnHome
 {
   background-color: #fad02c;
@@ -94,7 +119,9 @@ nav
   width: 15vw;
   margin-bottom: 2vh;
 }
+/**/
 
+/*Botão do Menu Lateral que leva à página de Desenvolvedores*/
 #btnSobre
 {
   background-color: #14668f;
@@ -107,7 +134,9 @@ nav
   width: 15vw;
   padding: 5pt;
 }
+/**/
 
+/*Botões do Menu Lateral que levam às páginas dos Candidatos*/
 #btnCandidato
 {
   background-color: #752A87;
@@ -120,25 +149,18 @@ nav
   width: 15vw;
   padding: 3pt;
 }
+/**/
 
+/*Classe do Ícone dos Candidatos*/
 .iTipo1
 {
   width: 2.5vw;
   height: auto;
   border-radius: 1vw;
 }
+/**/
 
-footer
-{
-  background-color: #1f2540;
-}
-
-main
-{
-  margin-top: 15vh;
-  height: 1000%; 
-}
-
+/*Elementos (Imagens e Textos) da Página Principal*/
 .textDE
 {
   margin-top: 5%;
@@ -183,7 +205,9 @@ main
 {
   font-weight: bolder;
 }
+/**/
 
+/*Configurações do Slider*/
 .paiCarousel
 {
   display: flex;
@@ -197,6 +221,7 @@ main
   margin-right: 250px;
 }
 
+/*Configurações da Legenda Das Imagens que também, são links*/
 #fundoCap{
   backdrop-filter: brightness(20%);
 }
@@ -212,6 +237,7 @@ main
 #fundoCap a:visited {
   color: white;
 }
+/**/
 
 #carouselExampleControls
 {
@@ -221,14 +247,100 @@ main
   height: 80vh;
   background-color: grey;
   margin-top: 3vh;
+  max-width: 1920px; 
+  min-width: 375px;
+}
+/**/
+
+/*Imagens dos Candidatos*/
+
+/*Imagens do Ciro Gomes*/
+.CiroIMG1
+{
+  width: 50%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
 }
 
-.primeiraImg
-{
-  margin-left: 210pt;
-  width: 30em;
+.CiroIMG2{
+  width: 100%;
   height: 43.9em;
 }
+
+.CiroIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.CiroIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.CiroIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Eymael*/
+.EymaelIMG1{
+  width: 50%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.EymaelIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.EymaelIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.EymaelIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.EymaelIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Felipe D'Ávila*/
+.FelipeIMG1{
+  width: 50%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.FelipeIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.FelipeIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.FelipeIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.FelipeIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
 
 .segundaImg
 {
@@ -237,6 +349,272 @@ main
   height: 43.9em;
 }
 
+/**/
+
+/*Imagens de Bolsonaro*/
+.BolsonaroIMG1{
+  width: 100%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.BolsonaroIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.BolsonaroIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.BolsonaroIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.BolsonaroIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Leo Péricles*/
+.LeoIMG1{
+  width: 50%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.LeoIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.LeoIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.LeoIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.LeoIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Lula*/
+.LulaIMG1{
+  width: 50%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.LulaIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.LulaIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.LulaIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.LulaIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Pablo Marçal*/
+.PabloIMG1{
+  width: 100%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.PabloIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.PabloIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.PabloIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.PabloIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Roberto Jefferson*/
+.RobertoIMG1{
+  width: 50%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.RobertoIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.RobertoIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.RobertoIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.RobertoIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Simone Tebet*/
+.TBTIMG1{
+  width: 100%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.TBTIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.TBTIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.TBTIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.TBTIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Sofia Manzzano*/
+.SofiaIMG1{
+  width: 100%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.SofiaIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.SofiaIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.SofiaIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.SofiaIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Soraya Thronicke*/
+.SorayaIMG1{
+  width: 100%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.SorayaIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.SorayaIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.SorayaIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.SorayaIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/*Imagens de Vera Lúcia*/
+.VeraIMG1{
+  width: 100%;
+  height: 43.9em;
+  margin-left: 25%;
+  align-content: center;
+}
+
+.VeraIMG2{
+  width: 100%;
+  height: 43.9em;
+}
+
+.VeraIMG3{
+  width: 100%;
+  height: 43.9em;
+}
+
+.VeraIMG4{
+  width: 100%;
+  height: 43.9em;
+}
+
+.VeraIMG5{
+  width: 100%;
+  height: 43.9em;
+}
+/**/
+
+/**/
+
+/*Divisão entre o Slider e o Conteúdo*/
 hr
 {
   position: relative;
@@ -246,7 +624,9 @@ hr
   background: black;
   margin-bottom: 50px;
 }
+/**/
 
+/*
 .MenuColapsavel
 {
   margin: 15px;
@@ -259,7 +639,9 @@ hr
   padding-left: 15px;
   padding-right: 30px;
 }
+*/
 
+/*Div pai de todos os textos sobre os candidatos*/
 .txtpai
 {
   padding: 15px;
@@ -270,7 +652,9 @@ hr
   margin-right: 100px;
   border: solid;
 }
+/**/
 
+/*Textos dos Candidatos*/
 .Biografia
 {
   color: white;
@@ -300,3 +684,4 @@ hr
   margin-right: 150px;
   text-align: justify;
 }
+/**/
