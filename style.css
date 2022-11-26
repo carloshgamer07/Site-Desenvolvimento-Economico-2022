@@ -659,6 +659,7 @@ hr
   margin-left: 150px;
   margin-right: 150px;
   text-align: justify;
+  font-size: 20px;
 }
 
 .ProjetoDE
@@ -669,7 +670,7 @@ hr
   margin-left: 150px;
   margin-right: 150px;
   text-align: justify;
-
+  font-size: 20px;
 }
 
 .partido
@@ -680,5 +681,6 @@ hr
   margin-left: 150px;
   margin-right: 150px;
   text-align: justify;
+  font-size: 20px;
 }
 /**/
