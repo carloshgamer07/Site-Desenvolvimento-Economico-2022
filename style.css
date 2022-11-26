@@ -194,6 +194,7 @@ nav
   width: 30em;
   height: auto;
   border-radius: 1em;
+  justify-content: center;
 }
 
 .spanhome
