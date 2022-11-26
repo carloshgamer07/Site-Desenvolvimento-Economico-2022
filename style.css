@@ -184,6 +184,10 @@ nav
   font-size: large;
 }
 
+.imgDiv{
+  justify-content: center;
+}
+
 .imgDE
 {
   width: 1000px;
