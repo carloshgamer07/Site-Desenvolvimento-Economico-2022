@@ -149,6 +149,10 @@ nav
   width: 15vw;
   padding: 3pt;
 }
+
+#listaCandidato{
+  list-style: none;
+}
 /**/
 
 /*Classe do Ícone dos Candidatos*/
